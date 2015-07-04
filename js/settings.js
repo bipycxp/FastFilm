@@ -75,20 +75,20 @@ Settings.prototype = {
             height: 480
         });
 
-        this.restore();
-
-        $('.ui.checkbox').checkbox({
-            onChange: function () {
-                self.save();
-            }
-        });
-
         $('.ui.toggle.settingBlock').change(function (e) {
             var element = $(e.currentTarget);
             element.parents('.ui.form').find('.segment.settingFields')
                 .toggleClass('disabled', !element.hasClass('checked'))
                 .find('.checkbox')
                 .toggleClass('disabled', !element.hasClass('checked'));
+        });
+
+        this.restore();
+
+        $('.ui.checkbox').checkbox({
+            onChange: function () {
+                self.save();
+            }
         });
 
         elements.sitesAndSearch
@@ -156,7 +156,9 @@ Settings.prototype = {
                             }
                         }
                     } else {
-                        $('.ui.checkbox[data-name=' + item + ']').checkbox(items[item] ? 'check' : 'uncheck');
+                        $('.ui.checkbox[data-name=' + item + ']')
+                            .checkbox('check')
+                            .checkbox(items[item] ? 'check' : 'uncheck');
                     }
                 }
             }
