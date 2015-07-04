@@ -1,0 +1,19 @@
+.searchIcon {
+    margin-right: 5px !important;
+    float: left !important;
+    width: 14px !important;
+    height: 14px !important;
+}
+
+.ffDiv {
+    border-color: #e8e8e8 !important;
+    border-style: solid !important;
+    border-width: 1px 0 0 0 !important;
+    padding: 10px 0 !important;
+}
+
+.ffTdTitle {
+    font-size: 11px !important;
+    color: #666 !important;
+    width: 140px !important;
+}

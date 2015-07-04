@@ -1,0 +1,51 @@
+{
+  "description": {
+    "message": "Rapid transition from Kinopoisk and IMDb for downloading or viewing a movie.",
+    "description": ""
+  },
+
+  "settingsDescription": {
+    "message": "Настройте расширение под себя",
+    "description": ""
+  },
+
+  "labelSites": {
+    "message": "Supported sites",
+    "description": ""
+  },
+
+  "labelSitesOnline": {
+    "message": "Watch online",
+    "description": ""
+  },
+
+  "labelSitesDownload": {
+    "message": "Download",
+    "description": ""
+  },
+
+  "searchSettings": {
+    "message": "Search settings",
+    "description": ""
+  },
+
+  "useOriginalTitle": {
+    "message": "Use original title",
+    "description": ""
+  },
+
+  "year": {
+    "message": "Year",
+    "description": ""
+  },
+
+  "thanksForInstall": {
+    "message": "Thanks for install",
+    "description": ""
+  },
+
+  "tellAboutUs": {
+    "message": "Tell about us in social networks, leave feedback and rate extension in",
+    "description": ""
+  }
+}

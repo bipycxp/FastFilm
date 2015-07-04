@@ -1,0 +1,51 @@
+{
+  "description": {
+    "message": "Швидкий перехід з Кінопошуку та IMDb до завантаження чи перегляду фільму.",
+    "description": ""
+  },
+
+  "settingsDescription": {
+    "message": "Налаштуйте розширення для себе",
+    "description": ""
+  },
+
+  "labelSites": {
+    "message": "Підтримувані сайти",
+    "description": ""
+  },
+
+  "labelSitesOnline": {
+    "message": "Сайти для онлайн перегляду",
+    "description": ""
+  },
+
+  "labelSitesDownload": {
+    "message": "Сайти для завантаження",
+    "description": ""
+  },
+
+  "searchSettings": {
+    "message": "Налаштування пошуку",
+    "description": ""
+  },
+
+  "useOriginalTitle": {
+    "message": "Використовувати оригінальну назву",
+    "description": ""
+  },
+
+  "year": {
+    "message": "Рік",
+    "description": ""
+  },
+
+  "thanksForInstall": {
+    "message": "Дякуємо за установлення",
+    "description": ""
+  },
+
+  "tellAboutUs": {
+    "message": "Розкажіть про нас у соцмережах, залиште відгук та оцініть розширення в",
+    "description": ""
+  }
+}

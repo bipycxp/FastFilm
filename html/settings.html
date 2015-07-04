@@ -1,0 +1,131 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link type="text/css" rel="stylesheet" media="all" href="../style/semantic.min.css">
+    <link type="text/css" rel="stylesheet" media="all" href="../style/settings.css">
+
+    <script src="../libs/jquery.js"></script>
+    <script src="../libs/socialShare.js"></script>
+    <script src="../libs/semantic.min.js"></script>
+
+    <script type="text/html" data-template="settingBlock">
+        <div class="eight wide column">
+            <div class="ui form" data-name="{{LABEL_NAME}}">
+                <h3 class="ui dividing header">
+                    {{LABEL}}
+                    <div class="ui toggle checkbox settingBlock" data-name="{{TOGGLE_NAME}}">
+                        <input type="checkbox">
+                    </div>
+                </h3>
+                <div class="ui segment settingFields">
+                    {{FIELDS}}
+                </div>
+            </div>
+        </div>
+    </script>
+
+    <script type="text/html" data-template="fieldCheckbox">
+        <div class="field">
+            <div class="ui checkbox" data-name="{{LINK_NAME}}">
+                <input type="checkbox">
+                <label> <img src="/img/icons/{{LINK_NAME}}.png" class="siteIcon">{{LABEL}}</label>
+            </div>
+        </div>
+    </script>
+</head>
+<body>
+
+<div class="ui grid">
+    <div class="two wide column"></div>
+    <div class="twelve wide column">
+        <div class="ui grid">
+            <div class="eight wide column">
+                <h1 class="ui header">
+                    <img src="../img/icons/icon128.png">
+                    <div class="content">
+                        Fast Film
+                        <div class="sub header settingsDescription"></div>
+                    </div>
+                </h1>
+            </div>
+            <div class="eight wide column">
+                <div class="shareButtons">
+                    <a class="ui circular grey icon button" href="https://github.com/bipycxp/FastFilm" target="_blank">
+                        <i class="github icon"></i>
+                        View on GitHub
+                    </a>
+                    <button class="ui circular vk share icon button">
+                        <i class="vk icon"></i>
+                    </button>
+                    <button class="ui circular facebook share icon button">
+                        <i class="facebook icon"></i>
+                    </button>
+                    <button class="ui circular twitter share icon button">
+                        <i class="twitter icon"></i>
+                    </button>
+                    <button class="ui circular google plus share icon button">
+                        <i class="google plus icon"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="ui segment">
+            <div class="ui grid">
+                <div class="row sitesAndSearch">
+                    <div class="eight wide column">
+                        <div class="ui form search" data-name="search">
+                            <h3 class="ui dividing header"></h3>
+                            <div class="field">
+                                <div class="ui checkbox" data-name="originalTitle">
+                                    <input type="checkbox">
+                                    <label class="originalTitle"></label>
+                                </div>
+                            </div>
+                            <div class="field">
+                                <div class="ui checkbox" data-name="year">
+                                    <input type="checkbox">
+                                    <label class="year"></label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row siteTypes"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="ui page dimmer">
+    <div class="content">
+        <div class="center">
+            <h1 class="ui icon header">
+                <i class="smile icon"></i>
+                <div class="text content">
+                    <div class="sub header"></div>
+                </div>
+            </h1>
+            <br>
+            <button class="ui circular vk share icon inverted basic button">
+                <i class="vk icon"></i>
+            </button>
+            <button class="ui circular facebook share icon inverted basic button">
+                <i class="facebook icon"></i>
+            </button>
+            <button class="ui circular twitter share icon inverted basic button">
+                <i class="twitter icon"></i>
+            </button>
+            <button class="ui circular google plus share icon inverted basic button">
+                <i class="google plus icon"></i>
+            </button>
+        </div>
+    </div>
+</div>
+
+</body>
+
+<script src="../js/settings.js"></script>
+
+</html>

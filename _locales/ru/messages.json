@@ -1,0 +1,51 @@
+{
+  "description": {
+    "message": "Быстрый переход с Кинопоиска и IMDb к скачиванию или просмотру фильма.",
+    "description": ""
+  },
+
+  "settingsDescription": {
+    "message": "Настройте расширение под себя",
+    "description": ""
+  },
+
+  "labelSites": {
+    "message": "Поддерживаемые сайты",
+    "description": ""
+  },
+
+  "labelSitesOnline": {
+    "message": "Сайты для онлайн просмотра",
+    "description": ""
+  },
+
+  "labelSitesDownload": {
+    "message": "Сайты для скачивания",
+    "description": ""
+  },
+
+  "searchSettings": {
+    "message": "Настройка поиска",
+    "description": ""
+  },
+
+  "useOriginalTitle": {
+    "message": "Использовать оригинальное название",
+    "description": ""
+  },
+
+  "year": {
+    "message": "Использовать год",
+    "description": ""
+  },
+
+  "thanksForInstall": {
+    "message": "Спасибо за установку",
+    "description": ""
+  },
+
+  "tellAboutUs": {
+    "message": "Расскажите о нас в соцсетях, оставьте отзыв и оцените расширение в",
+    "description": ""
+  }
+}
