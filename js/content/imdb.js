@@ -77,7 +77,11 @@ Imdb.prototype = {
         table = $('<table>');
 
         function searchIconClick(e) {
-            chrome.runtime.sendMessage({analytics: 'searchIcon', link: $(e.currentTarget).parent().attr('href')});
+            chrome.runtime.sendMessage({
+                analytics: true,
+                page: $(e.currentTarget).attr('title'),
+                type: 'Transition'
+            });
         }
 
         for (siteType in this.links) {
@@ -134,4 +138,8 @@ chrome.runtime.sendMessage({message: 'getParams'}, function (params) {
     imdb.init();
 });
 
-chrome.runtime.sendMessage({analytics: 'imdb'});
+chrome.runtime.sendMessage({
+    analytics: true,
+    page: 'Imdb.com',
+    type: 'Page'
+});

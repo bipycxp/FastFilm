@@ -7,19 +7,9 @@ _gaq.push(['_trackEvent', chrome.app.getDetails().version, 'Version']);
 chrome.runtime.onMessage.addListener(
     function (request) {
         'use strict';
-        switch (request.analytics) {
-        case 'kinopoisk':
-            _gaq.push(['_trackEvent', 'Kinopoisk.ru', 'Page']);
-            break;
-        case 'imdb':
-            _gaq.push(['_trackEvent', 'Imdb.com', 'Page']);
-            break;
-        case 'settings':
-            _gaq.push(['_trackEvent', 'Settings', 'Page']);
-            break;
-        case 'searchIcon':
-            _gaq.push(['_trackEvent', request.link, 'Transition']);
-            break;
+        if (request.analytics) {
+            _gaq.push(['_trackEvent', request.page, request.type]);
+            alert('f');
         }
     }
 );

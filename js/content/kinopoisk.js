@@ -72,7 +72,11 @@ Kinopoisk.prototype = {
             site;
 
         function searchIconClick(e) {
-            chrome.runtime.sendMessage({analytics: 'searchIcon', link: $(e.currentTarget).parent().attr('href')});
+            chrome.runtime.sendMessage({
+                analytics: true,
+                page: $(e.currentTarget).attr('title'),
+                type: 'Transition'
+            });
         }
 
         for (siteType in this.links) {
@@ -121,4 +125,8 @@ chrome.runtime.sendMessage({message: 'getParams'}, function (params) {
     kinopoisk.init();
 });
 
-chrome.runtime.sendMessage({analytics: 'kinopoisk'});
+chrome.runtime.sendMessage({
+    analytics: true,
+    page: 'Kinopoisk.ru',
+    type: 'Page'
+});

@@ -171,8 +171,10 @@ chrome.runtime.sendMessage({message : 'getLinks'}, function (links) {
     var settings = new Settings(links);
 
     settings.show();
-
-    chrome.runtime.sendMessage({analytics: 'settings'});
 });
 
-chrome.runtime.sendMessage({analytics: 'settings'});
+chrome.runtime.sendMessage({
+    analytics: true,
+    page: 'Settings',
+    type: 'Page'
+});
