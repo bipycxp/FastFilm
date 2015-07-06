@@ -9,7 +9,6 @@ chrome.runtime.onMessage.addListener(
         'use strict';
         if (request.analytics) {
             _gaq.push(['_trackEvent', request.page, request.type]);
-            alert('f');
         }
     }
 );
