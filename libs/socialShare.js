@@ -1,4 +1,4 @@
-/*global $:false, jQuery:false */
+/*global $, jQuery */
 /*jslint browser: true*/
 
 /**

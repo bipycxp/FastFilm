@@ -1,51 +1,41 @@
 {
   "description": {
-    "message": "Быстрый переход с Кинопоиска и IMDb к скачиванию или просмотру фильма.",
-    "description": ""
+    "message": "Быстрый переход с Кинопоиска и IMDb к скачиванию или просмотру фильма."
   },
 
   "settingsDescription": {
-    "message": "Настройте расширение под себя",
-    "description": ""
+    "message": "Настройте расширение под себя"
   },
 
   "labelSites": {
-    "message": "Поддерживаемые сайты",
-    "description": ""
+    "message": "Поддерживаемые сайты"
   },
 
   "labelSitesOnline": {
-    "message": "Сайты для онлайн просмотра",
-    "description": ""
+    "message": "Сайты для онлайн просмотра"
   },
 
   "labelSitesDownload": {
-    "message": "Сайты для скачивания",
-    "description": ""
+    "message": "Сайты для скачивания"
   },
 
   "searchSettings": {
-    "message": "Настройка поиска",
-    "description": ""
+    "message": "Настройка поиска"
   },
 
   "useOriginalTitle": {
-    "message": "Использовать оригинальное название",
-    "description": ""
+    "message": "Использовать оригинальное название"
   },
 
   "year": {
-    "message": "Использовать год",
-    "description": ""
+    "message": "Использовать год"
   },
 
   "thanksForInstall": {
-    "message": "Спасибо за установку",
-    "description": ""
+    "message": "Спасибо за установку"
   },
 
   "tellAboutUs": {
-    "message": "Расскажите о нас в соцсетях, оставьте отзыв и оцените расширение в",
-    "description": ""
+    "message": "Расскажите о нас в соцсетях, оставьте отзыв и оцените расширение в"
   }
 }

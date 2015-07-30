@@ -3,7 +3,7 @@
 
 var Settings = function (links) {
     'use strict';
-    this.extensionId = chrome.app.getDetails().id;
+    this.extension = chrome.app.getDetails();
     this.links = links;
     this.items = localStorage.getItem('settings') ? JSON.parse(localStorage.getItem('settings')) : {};
     this.firstRun = localStorage.getItem('firstRun') ? JSON.parse(localStorage.getItem('firstRun')) : true;
@@ -68,9 +68,9 @@ Settings.prototype = {
         }
 
         elements.share.ShareLink({
-            title: 'Fast Film',
+            title: this.extension.name,
             text: chrome.i18n.getMessage('description'),
-            url: 'https://chrome.google.com/webstore/detail/fast-film/' + this.extensionId,
+            url: 'https://chrome.google.com/webstore/detail/' + this.extension.id,
             width: 640,
             height: 480
         });
@@ -97,9 +97,9 @@ Settings.prototype = {
         elements.settingsDescription
             .text(chrome.i18n.getMessage('settingsDescription'));
         elements.dimmerContent
-            .prepend(chrome.i18n.getMessage('thanksForInstall') + ' Fast Film');
+            .prepend(chrome.i18n.getMessage('thanksForInstall') + ' ' + this.extension.name);
         elements.dimmerContent.find('.header')
-            .append(chrome.i18n.getMessage('tellAboutUs') + ' <a href="https://chrome.google.com/webstore/detail/fast-film/' + this.extensionId + '/reviews" target="_blank">Chrome Store</a>');
+            .append(chrome.i18n.getMessage('tellAboutUs') + ' <a href="https://chrome.google.com/webstore/detail/' + this.extension.id + '/reviews" target="_blank">Chrome Store</a>');
         elements.searchFields
             .find('h3')
             .text(chrome.i18n.getMessage('searchSettings'));

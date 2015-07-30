@@ -1,4 +1,4 @@
-﻿/*global $:false, chrome:false */
+﻿/*global $, chrome */
 /*jslint browser: true*/
 
 var Links = function () {
@@ -92,12 +92,14 @@ var Links = function () {
     };
 };
 
+var links = new Links(),
+    oldVersion = localStorage.getItem('version'),
+    newVersion = chrome.app.getDetails().version;
+
 /*jslint unparam: true */
 chrome.runtime.onMessage.addListener(
     function (request, sender, sendResponse) {
         'use strict';
-        var links = new Links();
-
         switch (request.message) {
         case 'getParams':
             sendResponse({
@@ -116,12 +118,14 @@ chrome.runtime.onMessage.addListener(
 );
 /*jslint unparam: false */
 
-if (chrome.app.getDetails().version !== localStorage.getItem('version')) {
-    localStorage.setItem('firstRun', true);
+if (newVersion !== oldVersion) {
+    localStorage.setItem('firstRun', !oldVersion);
 
-    chrome.tabs.create({
-        url: chrome.extension.getURL('html/settings.html')
-    });
+    if (!oldVersion || newVersion.replace(/\.\d+$/, '') > oldVersion.replace(/\.\d+$/, '')) {
+        chrome.tabs.create({
+            url: chrome.extension.getURL('html/settings.html')
+        });
+    }
+
+    localStorage.setItem('version', chrome.app.getDetails().version);
 }
-
-localStorage.setItem('version', chrome.app.getDetails().version);

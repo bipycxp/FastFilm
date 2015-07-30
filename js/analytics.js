@@ -1,4 +1,4 @@
-/*global $:false, chrome:false */
+/*global $, chrome */
 /*jslint browser: true, nomen: true*/
 var _gaq = window._gaq || [];
 _gaq.push(['_setAccount', 'UA-41619690-1']);

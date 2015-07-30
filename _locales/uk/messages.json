@@ -1,51 +1,41 @@
 {
   "description": {
-    "message": "Швидкий перехід з Кінопошуку та IMDb до завантаження чи перегляду фільму.",
-    "description": ""
+    "message": "Швидкий перехід з Кінопошуку та IMDb до завантаження чи перегляду фільму."
   },
 
   "settingsDescription": {
-    "message": "Налаштуйте розширення для себе",
-    "description": ""
+    "message": "Налаштуйте розширення для себе"
   },
 
   "labelSites": {
-    "message": "Підтримувані сайти",
-    "description": ""
+    "message": "Підтримувані сайти"
   },
 
   "labelSitesOnline": {
-    "message": "Сайти для онлайн перегляду",
-    "description": ""
+    "message": "Сайти для онлайн перегляду"
   },
 
   "labelSitesDownload": {
-    "message": "Сайти для завантаження",
-    "description": ""
+    "message": "Сайти для завантаження"
   },
 
   "searchSettings": {
-    "message": "Налаштування пошуку",
-    "description": ""
+    "message": "Налаштування пошуку"
   },
 
   "useOriginalTitle": {
-    "message": "Використовувати оригінальну назву",
-    "description": ""
+    "message": "Використовувати оригінальну назву"
   },
 
   "year": {
-    "message": "Рік",
-    "description": ""
+    "message": "Рік"
   },
 
   "thanksForInstall": {
-    "message": "Дякуємо за установлення",
-    "description": ""
+    "message": "Дякуємо за установлення"
   },
 
   "tellAboutUs": {
-    "message": "Розкажіть про нас у соцмережах, залиште відгук та оцініть розширення в",
-    "description": ""
+    "message": "Розкажіть про нас у соцмережах, залиште відгук та оцініть розширення в"
   }
 }

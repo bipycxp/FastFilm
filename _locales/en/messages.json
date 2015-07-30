@@ -1,51 +1,41 @@
 {
   "description": {
-    "message": "Rapid transition from Kinopoisk and IMDb for downloading or viewing a movie.",
-    "description": ""
+    "message": "Rapid transition from Kinopoisk and IMDb for downloading or viewing a movie."
   },
 
   "settingsDescription": {
-    "message": "Настройте расширение под себя",
-    "description": ""
+    "message": "Настройте расширение под себя"
   },
 
   "labelSites": {
-    "message": "Supported sites",
-    "description": ""
+    "message": "Supported sites"
   },
 
   "labelSitesOnline": {
-    "message": "Watch online",
-    "description": ""
+    "message": "Watch online"
   },
 
   "labelSitesDownload": {
-    "message": "Download",
-    "description": ""
+    "message": "Download"
   },
 
   "searchSettings": {
-    "message": "Search settings",
-    "description": ""
+    "message": "Search settings"
   },
 
   "useOriginalTitle": {
-    "message": "Use original title",
-    "description": ""
+    "message": "Use original title"
   },
 
   "year": {
-    "message": "Year",
-    "description": ""
+    "message": "Year"
   },
 
   "thanksForInstall": {
-    "message": "Thanks for install",
-    "description": ""
+    "message": "Thanks for install"
   },
 
   "tellAboutUs": {
-    "message": "Tell about us in social networks, leave feedback and rate extension in",
-    "description": ""
+    "message": "Tell about us in social networks, leave feedback and rate extension in"
   }
 }

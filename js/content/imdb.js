@@ -1,4 +1,4 @@
-/*global $:false, chrome:false */
+/*global $, chrome */
 /*jslint browser: true, regexp:true */
 
 var Imdb = function (params) {
