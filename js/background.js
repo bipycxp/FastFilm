@@ -47,6 +47,10 @@ var Links = function () {
         'o-nline': {
             title: 'O-nline.ws',
             link: 'http://o-nline.ws/index.php?do=search&story={{SEARCH_STRING}}&result_form=1&full_search=0&search_start=1&subaction=search'
+        },
+        'my-hit': {
+            title: 'MY-HIT.org',
+            link: 'http://my-hit.org/search/?q={{SEARCH_STRING}}'
         }
     };
 
