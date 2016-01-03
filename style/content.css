@@ -1,8 +1,18 @@
 .searchIcon {
-    margin-right: 5px !important;
-    float: left !important;
-    width: 14px !important;
-    height: 14px !important;
+    font-size: 8px;
+    display: inline-block;
+    line-height: 1;
+    vertical-align: baseline;
+    margin: 5px 5px 0 0 !important;
+    background: #009c95 !important;
+    padding: 3px 5px !important;
+    color: rgba(0,0,0,.6);
+    color: #fff !important;
+    text-transform: none;
+    border: 0 solid #009c95 !important;
+    border-radius: .28571429rem;
+    -webkit-transition: background .1s ease;
+    transition: background .1s ease;
 }
 
 .ffDiv {
