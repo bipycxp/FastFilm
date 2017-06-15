@@ -47,6 +47,10 @@ var Links = function () {
         'o-nline': {
             title: 'O-nline.ws',
             link: 'http://o-nline.ws/index.php?do=search&story={{SEARCH_STRING}}&result_form=1&full_search=0&search_start=1&subaction=search'
+        },
+        'my-hit': {
+            title: 'MY-HIT.org',
+            link: 'http://my-hit.org/search/?q={{SEARCH_STRING}}'
         }
     };
 
@@ -66,7 +70,7 @@ var Links = function () {
         },
         rutor : {
             title : 'Rutor.org',
-            link : 'http://rutor.org/search/0/0/100/0/{{SEARCH_STRING}}'
+            link : 'http://new-rutor.org/search/0/0/100/0/{{SEARCH_STRING}}'
         },
         nnm_club : {
             title : 'Nnm-club.me',
@@ -78,8 +82,8 @@ var Links = function () {
             noURI : true
         },
         pirate_bay : {
-            title : 'ThePirateBay.vg',
-            link : 'http://thepiratebay.vg/search/{{SEARCH_STRING}}/0/7/200'
+            title : 'ThePirateBay.se',
+            link : 'http://thepiratebay.se/search/{{SEARCH_STRING}}/0/7/200'
         },
         torrent_reactor : {
             title : 'TorrentReactor.net',

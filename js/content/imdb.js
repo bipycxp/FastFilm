@@ -97,8 +97,8 @@ Imdb.prototype = {
                         link = this.links[siteType][site].link
                             .replace('{{SEARCH_STRING}}', !this.links[siteType][site].noURI ? encodeURIComponent(this.getSearchString()) : this.getSearchString());
                         div = $('<div>')
-                            .css('background', 'url(' + chrome.extension.getURL('../img/icons/' + site + '.png') + ')')
                             .attr('title', this.links[siteType][site].title)
+                            .text(this.links[siteType][site].title)
                             .addClass('searchIcon');
                         a = $('<a>')
                             .attr('href', link)

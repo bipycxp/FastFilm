@@ -8,12 +8,6 @@ h3.ui.header .ui.toggle.checkbox {
     float: right
 }
 
-.siteIcon {
-    position: relative;
-    top: 2px;
-    margin-right: 4px;
-}
-
 .ui.grid {
     margin: 0;
 }
